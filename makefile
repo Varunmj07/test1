@@ -8,3 +8,5 @@ big2.o:big2.c
 fact.o:fact.c
 	gcc -c fact.c
 
+clean:
+	rm -rf *.o practice.exe
